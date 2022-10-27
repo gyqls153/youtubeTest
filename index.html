@@ -53,13 +53,12 @@
         playButton.addEventListener("click", function () {
             
             console.log("click")
-            //player.mute();
-            test();
+            player.unMute();
+            player.playVideo();
         });
       }
 
       function test() {
-        player.playVideo();
       }
     </script>
     <!-- <iframe id="ytplayer" type="text/html" width="640" height="360"
